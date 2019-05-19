@@ -1,0 +1,5 @@
+:root {
+  --base-size: 14px;
+  --base-size-padding: calc(var(--base-size) / 2);
+  --base-size-margin: calc(var(--base-size) / 2);
+}

@@ -1,0 +1,6 @@
+.countdown__label {
+  color: var(--color-contrast-light);
+  font-size: calc(var(--base-size) * 1);
+  font-weight: bold;
+  margin: 0;
+}
