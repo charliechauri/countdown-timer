@@ -1,0 +1,18 @@
+.countdown {
+  background-color: var(--color-white);
+  border-style: solid;
+  border-color: var(--color-contrast-light);
+  border-width: calc(var(--base-size) / 14);
+  border-radius: calc(var(--base-size) / 3);
+  display: inline-block;
+  margin: var(--base-size);
+  padding: calc(var(--base-size-padding) * 3);
+  text-align: center;
+  width: calc(var(--base-size) * 6);
+}
+
+@media (max-width: 720px) {
+  .countdown {
+    display: block;
+  }
+} 
