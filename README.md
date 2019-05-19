@@ -1,3 +1,16 @@
+# Countdown timer
+
+Based on a deadline the `CountdownTimer` displays the time left to the deadline starting when the page is loaded.
+
+Current default deadline is set to: 1 days, 23 hours, 27 minutes and 47 seconds.
+
+![countdown timer](./public/img/countdown_timer.png)
+
+## Setting up
+This project was built using: `node v12.2.0`.
+
+I recommend using [nvm](https://github.com/nvm-sh/nvm) for managing multiple node versions.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
