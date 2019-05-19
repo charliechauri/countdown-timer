@@ -50,9 +50,10 @@ class CountdownTimer extends Component {
 
   render() {
     const { days, hours, minutes, seconds } = this.state.countdownTimer;
+    const countdownTimerAriaMessage = `Countdown timer: ${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds left`;
 
     return (
-      <section className="countdown-timer">
+      <section className="countdown-timer" aria-label={countdownTimerAriaMessage}>
         <CountdownDays daysLeft={days} />
         <CountdownHours hoursLeft={hours} />
         <CountdownMinutes minutesLeft={minutes} />
