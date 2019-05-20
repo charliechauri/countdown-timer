@@ -3,4 +3,5 @@
   font-size: calc(var(--base-size) * 1);
   font-weight: bold;
   margin: 0;
+  text-transform: capitalize;
 }
